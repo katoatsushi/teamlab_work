@@ -5,8 +5,7 @@ class ProductsController < ApplicationController
   def index
     val = params[:product_title] #検索されたワードを取り出す
     @searched_products = Product.where("product_title LIKE ?", "%#{val}%") 
-    @stores = Store.all
-    render json: @searched_products, @stores
+    render json: @searched_products
   end
 
 
