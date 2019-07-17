@@ -10,7 +10,9 @@ gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # gem 'mini_magick', '4.8.0'
-gem 'aws-sdk', '3.0.1'
+# gem 'aws-sdk', '3.0.1'
+
+gem "aws-sdk-s3", require: false #追記
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
