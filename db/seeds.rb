@@ -1,0 +1,6 @@
+Store.create(store_name: "横浜支店")
+Store.create(store_name: "川崎支店")
+Store.create(store_name: "元住吉支店")
+Store.create(store_name: "新宿支店")
+Store.create(store_name: "渋谷支店")
+Store.create(store_name: "池袋支店")
